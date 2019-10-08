@@ -25,5 +25,11 @@ Slack
 -- ./scan 10.10.10.157
 --- this will call http://myhost/scap.php?=
 
+Running:
+
 Make sure you are connected to the HTB vpn
+copy all files to /var/www/html
+make files executable
+Use common sense in securing them <-- No pentesting has been done to assure it cant be abused at current time :). Your Welcome!
+Create / commands in your slac instance
 Enter your slack channel and type the command /scan 10.10.10.x (replace x with host to scan)
